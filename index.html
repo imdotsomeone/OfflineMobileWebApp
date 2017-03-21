@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
-<head><link type="text/css" rel="stylesheet" href="style.css" media="screen" />
+<head><link type="text/css" rel="stylesheet" href="css/style.css" media="screen" />
 	<title>iTeach</title>
 </head>
 <body>
+    <div class="landing-logo"><img src="Photos/iTeachLogo.png"></div>
 	<div id="landing-container">
         <form class="addClassModal-input" name="checkIfValid" method="post">
 			<ul>
@@ -11,14 +12,10 @@
                     Classcode <input type="text" name="classCode" maxlength="5">
                 </li>
             </ul>				 
-      <div class="addClassTable-wrap">
-          <div class="addClassTable-header">
-				<p class="addClassTable-header-left">
-                    STUDENT LIST
-                </p>
-          </div>
-        </div>
        </form>
-</div>
+        <div id="landing-button">
+            <a href="Confirm.html"> <button class="button success">Submit</button></a>
+        </div>
+    </div>
     </body>
 </html>
