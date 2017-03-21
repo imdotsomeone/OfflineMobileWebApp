@@ -75,15 +75,15 @@ li{
 
 .confirm-input{
     padding-bottom: 20%;
-    height: 5%;
-    width:50%;
+    height: 1px;
+    width:30%;
     margin-top: 15%;
     margin-left: 35%;
     font-size: 30px;
     font-family: appFont;
     float: left;
 }
-
-#block{
-    display: block;
+#back-button{
+    width:50px;
+    margin-left: 28%;
 }
