@@ -1,0 +1,23 @@
+body{
+    background-image: url(landing.jpg);
+    background-size:cover;
+}
+
+li{
+    list-style: none;
+}
+
+#landing-container{
+    padding-bottom: 20%;
+    height: 15%;
+    width:50%;
+    margin-top: 20%;
+    margin-left: 35%;
+    font-size: 30px;
+    font-family: monospace;
+}
+
+@font-face{
+    font-family:appFont;
+    src: url(Oswald-Light.ttf)
+}
