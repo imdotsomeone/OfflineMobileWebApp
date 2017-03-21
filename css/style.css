@@ -60,3 +60,30 @@ li{
     font-family:appFont;
     src: url(Oswald-Light.ttf)
 }
+
+.confirm-logo{
+    margin-top: 2%;
+    height: 20px;
+    width: 10px;
+    margin-left: 1%;
+}
+
+.confirm-logo img{
+    height: 190px;
+    width: 290px;
+}
+
+.confirm-input{
+    padding-bottom: 20%;
+    height: 5%;
+    width:50%;
+    margin-top: 15%;
+    margin-left: 35%;
+    font-size: 30px;
+    font-family: appFont;
+    float: left;
+}
+
+#block{
+    display: block;
+}
