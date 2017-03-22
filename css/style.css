@@ -4,6 +4,32 @@ body{
     overflow-x: hidden;
 }
 
+.navigation{
+    background-color:gainsboro;
+    display: block;
+    align-content: center;
+}
+
+.navigation a{
+    color:white;
+    text-decoration: none;
+    align-content: center;
+}
+
+.navigation li{
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+    align-self: stretch;
+}
+
+.container{
+    margin-top: 10%;
+    align-content: center;
+    text-align: center;
+    font-size: 50px;
+}
+
 li{
     list-style: none;
 }
@@ -46,8 +72,8 @@ li{
 .info {background-color: #2196F3;} /* Blue */
 .info:hover {background: #0b7dda;}
 
-.warning {background-color: #ff9800;} /* Orange */
-.warning:hover {background: #e68a00;}
+.main {background-color: #ff9800;} /* Orange */
+.main:hover {background: #e68a00;}
 
 .danger {background-color: #f44336;} /* Red */ 
 .danger:hover {background: #da190b;}
@@ -69,7 +95,7 @@ li{
 }
 
 .confirm-logo img{
-    height: 190px;
+    height: 180px;
     width: 290px;
 }
 
@@ -96,9 +122,16 @@ li{
     background-color:orange;
     text-align: center;
     width: 100%;
-    height: 30%;
+    height: 20%;
 }
 
 #layout-header{
+    color: white;
+    font-size: 30px;
     
+}
+#room-container{
+    float: right;
+    margin-right: 10%;
+    margin-top: 2%;
 }
