@@ -1,21 +1,212 @@
 <!DOCTYPE html>
 <html>
-<head><link type="text/css" rel="stylesheet" href="css/style.css" media="screen" />
-	<title>iTeach</title>
-</head>
-<body>
-    <div class="landing-logo"><img src="Photos/iTeachLogo.png"></div>
-	<div id="landing-container">
-        <form class="addClassModal-input" name="checkIfValid" method="post">
-			<ul>
-                <li>
-                    Classcode <input type="text" name="classCode" maxlength="5">
-                </li>
-            </ul>				 
-       </form>
+    <head>
+        <link type="text/css" rel="stylesheet" href="css/style.css" media="screen" />
+	   <title>
+            iTeach
+        </title>
+        <meta name="viewport" content="width=device-width" content="initial-scale=1">
+    </head>
+    <body>
+        <div class="page-wrap" id="landing">
+            <div class="landing-logo">
+                <img src="Photos/iTeachLogo.png">
+            </div>
+    <div id="landing-container">
+            <form class="addClassModal-input" name="checkIfValid" method="post">
+			     <ul>
+                    <li>
+                        Classcode <input type="text" name="classCode" maxlength="5">
+                    </li>
+                </ul>				 
+            </form>
         <div id="landing-button">
-            <a href="Confirm.html"> <button class="button success">Submit</button></a>
+            <a href="Confirm.html">
+                <button class="button success">
+                    Submit
+                </button>
+            </a>
         </div>
     </div>
-    </body>
+        </div>
+    
+    <div class="page-wrap" id="confirm-layout">
+        <div class="confirm-logo"><img src="Photos/iTeachLogo.png"></div>
+            <div id="back-button">
+                <a href="landing.html">
+                    <button class="button info">
+                        BACK
+                    </button>
+                </a>
+            </div>
+        <div class="confirm-input">
+                <form class="addClassModal-input" name="checkIfValid" method="post">
+			     <ul>
+                    <li>
+                        Classcode: &nbsp;<input type="text" name="classCode" maxlength="5">
+                    </li>
+                    <li>
+                        Schedule: &nbsp; <input type="text" name="classCode" maxlength="5">
+                    </li>
+                    <li>
+                        Classroom:&nbsp; <input type="text" name="classCode" maxlength="5">
+                    </li>
+                    <li>
+                        Instructor: <input type="text" name="classCode" maxlength="5">
+                    </li>
+                </ul>				 
+                </form>
+        </div>
+                <div>
+                    <a href="ClassLayout.html">
+                        <button class="button success">
+                            Submit
+                        </button>
+                    </a>
+                </div>
+            </div>
+                <div class="page-wrap" id="ClassLayout">
+                    <div class="confirm-logo">
+                        <img src="Photos/iTeachLogo.png">
+                    </div>
+                <div class="confirm-layout">
+                    <span id="layout-header">
+                        CLASSROOM LAYOUT
+                    </span>
+                </div>
+                    <div id="room-container">
+                        <a href="index.html">
+                            <button class="button default">
+                                °S527
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="page-wrap" id="ClassLayout">
+                    <div class="confirm-logo">
+                        <img src="Photos/iTeachLogo.png">
+                    </div>
+    
+                <ul class="navigation">
+                    <li>
+                        <a href="Seatings.html">
+                            <button class="button main">
+                                Seatings
+                            </button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Attendance.html">
+                            <button class="button main">
+                                Attendance
+                            </button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Standings.html">
+                            <button class="button main">
+                                Standings
+                            </button>
+                        </a>
+                    </li>
+                </ul>
+                </div>
+                <div>
+                    <div class="confirm-logo">
+                        <img src="Photos/iTeachLogo.png">
+                    </div>
+    
+                    <ul class="navigation">
+                        <li>
+                            <a href="Seatings.html">
+                                <button class="button main">
+                                    Seatings
+                                </button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Attendance.html">
+                                <button class="button main">
+                                    Attendance
+                                </button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Standings.html">
+                                <button class="button main">
+                                    Standings
+                                </button>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="container">
+                        HERE TO PUT SEATINGS
+                    </div>
+                </div>
+                <div>
+                    <div class="confirm-logo">
+                        <img src="Photos/iTeachLogo.png">
+                    </div>
+    
+                    <ul class="navigation">
+                        <li>
+                            <a href="Seatings.html">
+                                <button class="button main">
+                                    Seatings
+                                </button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Attendance.html">
+                                <button class="button main">
+                                    Attendance
+                                </button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Standings.html">
+                                <button class="button main">
+                                    Standings
+                                </button>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="container">
+                        HERE TO PUT ATTENDANCE
+                    </div>
+                </div>
+                <div>
+                    <div class="confirm-logo">
+                        <img src="Photos/iTeachLogo.png">
+                    </div>
+    
+                    <ul class="navigation">
+                        <li>
+                            <a href="Seatings.html">
+                                <button class="button main">
+                                    Seatings
+                                </button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Attendance.html">
+                                <button class="button main">
+                                    Attendance
+                                </button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Standings.html">
+                                <button class="button main">
+                                    Standings
+                                </button>
+                            </a>
+                        </li>
+                    </ul>
+    
+                        <div class="container">
+                            HERE TO PUT ATTENDANCE
+                        </div>
+                </div>
+        </body>
 </html>
