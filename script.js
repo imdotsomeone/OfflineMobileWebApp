@@ -28,7 +28,5 @@ function renderHTML(data){
     pageContainer.insertAdjacentHTML('beforeend', htmlString);
 }
 
-var inputElement = document.getElementById("inputCode")
-
 
 /*svg script*/
