@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="css/style.css" media="screen"/>
+        <script language="javascript" type="text/javascript" src="script/script.js" async></script>
+	   <title>
+            iTeach
+        </title>
+    </head>
+    <body>
+        
+        <!-- CODE FOR THE LANDING PAGE 1 -->
+        <div class="page1" id="page1">
+            <div class="landing-logo">
+                <img src="Photos/iTeachLogo.png">
+            </div>
+            <div id="landing-container">
+                <form name="classcodeForm" method="post">
+			         <ul>
+                        <li>
+                            Classcode <input id="inputCode" type="text" name="classCode" maxlength="5">
+                        </li>
+                    </ul>				 
+                </form>
+            <div id="landing-button">
+                <a href="#page2">
+                    <button id="btn" class="button success" onclick="showorhidepage('page2');">
+                        Submit
+                    </button>
+                </a>
+            </div>
+    </div>        
+        </div>
+        
+        <!-- CODE FOR PAGE 2 | CONFIRM CODE-->
+    <div class="hide" id="page2">
+        <div class="confirm-logo"><img src="Photos/iTeachLogo.png"></div>
+            <div id="back-button">
+                <a href="#page1">
+                    <button class="button info" onclick="showorhidepage('page1');">
+                        BACK
+                    </button>
+                </a>
+            </div>
+        <div class="confirm-input">
+                <form class="addClassModal-input" name="checkIfValid" method="post">
+			     <ul>
+                    <li>
+                        Classcode: &nbsp;<input type="text" name="classCode" maxlength="5">
+                    </li>
+                     <li>
+                        Title: &nbsp;<input type="text" name="classCode" maxlength="5">
+                    </li>
+                    <li>
+                        Schedule: &nbsp; <input type="text" name="classCode" maxlength="5">
+                    </li>
+                    <li>
+                        Classroom:&nbsp; <input type="text" name="classCode" maxlength="5">
+                    </li>
+                    <li>
+                        Instructor: <input type="text" name="classCode" maxlength="5">
+                    </li>
+                </ul>				 
+                </form>
+        </div>
+                <div>
+                    <a href="#page3">
+                        <button class="button success" onclick="showorhidepage('page3');">
+                            Submit
+                        </button>
+                    </a>
+                </div>
+            </div>
+        
+        <!-- CODE FOR PAGE 3  CONFIRM CLASSROOM LAYOUT--> 
+        <div class="hide" id="page3">
+            <div class="confirm-logo">
+                        <img src="Photos/iTeachLogo.png">
+                    </div>
+                <div class="confirm-layout">
+                    <span id="layout-header">
+                        CLASSROOM LAYOUT
+                    </span>
+                </div>
+                    <div id="room-container">
+                        <a href="#page4">
+                            <button class="button default" onclick="showorhidepage('page4');">
+                                °S527
+                            </button>
+                        </a>
+                    </div>
+        
+            
+        </div>
+        
+        <!-- CODE FOR PAGE 4 RAW INDEX TEMPORARY--> 
+        <div class="hide" id="page4">
+            <div class="confirm-logo">
+                        <img src="Photos/iTeachLogo.png">
+                    </div>
+    
+                <ul class="navigation">
+                    <li>
+                        <a href="#page5">
+                            <button class="button main" onclick="showorhidepage('page5');">
+                                Seatings
+                            </button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#page6">
+                            <button class="button main" onclick="showorhidepage('page6');">
+                                Attendance
+                            </button>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#page7">
+                            <button class="button main" onclick="showorhidepage('page7');">
+                                Standings
+                            </button>
+                        </a>
+                    </li>
+                </ul>
+        </div>
+        
+        <!-- CODE FOR PAGE 5  SEATINGS --> 
+        <div class="hide" id="page5">
+        
+            <div class="confirm-logo">
+                        <img src="Photos/iTeachLogo.png">
+                    </div>
+    
+                    <ul class="navigation">
+                        <li>
+                            <a href="#page5">
+                                <button class="button main" onclick="showorhidepage('page5');">
+                                    Seatings
+                                </button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#page6">
+                                <button class="button main" onclick="showorhidepage('page6');">
+                                    Attendance
+                                </button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#page7">
+                                <button class="button main" onclick="showorhidepage('page7');">
+                                    Standings
+                                </button>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="container">
+                        HERE TO PUT SEATINGS
+                    </div>
+        </div>
+        
+        <!-- CODE FOR PAGE 6 ATTENDANCE--> 
+        <div class="hide" id="page6">
+            <div class="confirm-logo">
+                        <img src="Photos/iTeachLogo.png">
+                    </div>
+    
+                    <ul class="navigation">
+                        <li>
+                            <a href="#page5">
+                                <button class="button main" onclick="showorhidepage('page5');">
+                                    Seatings
+                                </button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#page6">
+                                <button class="button main" onclick="showorhidepage('page6');">
+                                    Attendance
+                                </button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#page7">
+                                <button class="button main" onclick="showorhidepage('page7');">
+                                    Standings
+                                </button>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="container">
+                        HERE TO PUT ATTENDANCE
+                    </div>
+        </div>
+        
+         <!-- CODE FOR PAGE 7 STANDINGS--> 
+        <div class="hide" id="page7">
+            <div class="confirm-logo">
+                        <img src="Photos/iTeachLogo.png">
+                    </div>
+                    <ul class="navigation">
+                        <li>
+                            <a href="#page5">
+                                <button class="button main" onclick="showorhidepage('page5');">
+                                    Seatings
+                                </button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#page6">
+                                <button class="button main" onclick="showorhidepage('page6');">
+                                    Attendance
+                                </button>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#page7">
+                                <button class="button main" onclick="showorhidepage('page7');">
+                                    Standings
+                                </button>
+                            </a>
+                        </li>
+                    </ul>
+                        <div class="container">
+                            HERE TO PUT ATTENDANCE
+                        </div>
+            
+        </div>
+        
+    </body>
+</html>
