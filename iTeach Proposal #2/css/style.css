@@ -1,0 +1,337 @@
+
+.hide {
+    display: none;  
+}
+
+
+.page1{
+    //display: block;
+    position: absolute;
+    top: 0%;
+    left:0%;
+    width: 100%;
+    height: 100%;
+    background-image: url(../Photos/background.jpg);
+    background-position: center;
+    background-size: 155%;
+    background-repeat: no-repeat;
+}
+
+.page2{
+    //display: none;
+    position: absolute;
+    top: 0%;
+    left: 00%;
+    width: 100%;
+    height: 100%;
+    background-image: url(../Photos/background.jpg);
+}
+
+.page3{
+    //display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url(../Photos/background.jpg);
+}
+
+.page4{
+    //display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url(../Photos/background.jpg)
+}
+
+.page5{
+    //display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url(../Photos/background.jpg)
+}
+
+.page6{
+    //display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url(../Photos/background.jpg)
+}
+
+.page7{
+    //display: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url(../Photos/background.jpg)
+}
+
+.landing-logo{
+    position: absolute;
+    height: 10%;
+    width: 10%;
+}
+
+.landing-logo img{
+    position: absolute;
+    height: 160%;
+    width: 335%;
+}
+
+#landing-container{
+    position: absolute;
+    top:50%;
+    left: 10%;
+    font-size: 400%;
+    font-family: appFont;
+    color: #E4DBC4;
+}
+
+@font-face{
+    font-family:appFont;
+    src: url(Myriad.ttf)
+}
+
+#landing-button{
+    top: 90%;
+    height: 90%;
+    padding-top: 20%;
+    left: 20%;
+}
+
+li{
+    list-style: none;
+}
+
+.button{
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 4%;  /* Add some padding */
+    opacity: 0.8;
+    cursor: pointer; /* Add a pointer cursor on mouse-over */
+    font-size: 100%;
+    position: absolute;
+    background-color: grey;
+    font-family: appFont;
+}
+
+/*---- SET OF COLORS FOR BUTTONS FOR FUTURE USE ----*/
+
+.success {background-color: #4CAF50;} /* Green */
+.success:hover {background-color: #46a049;}
+
+.info {background-color: #2196F3;} /* Blue */
+.info:hover {background: #0b7dda;}
+
+/* For the Table of Classes */
+#content-wrap{
+    margin-top: -90px !important;
+    position: relative;
+    height: 100%;
+}
+
+.main-text{
+    position: absolute;
+    float: left;
+    left: 0%;
+    right: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+    width: 705px;
+    top: 110px;
+    color: #ffffff;
+    text-shadow: 1px 1px #573232;
+}
+
+.main-text em{
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.table-wrap{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 470px;
+    width: 770px;
+    top: 320px;
+    
+    
+}
+
+.table-header{
+    position: absolute;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0%;
+    right: 0%;
+    width: 720px;
+}
+
+.header-left{
+    font-size: 25px;
+    font-weight: bold;
+    float: left;
+    color: #ffffff;
+    text-shadow: 1px 1px #573232;
+}
+
+.header-right{
+    float: right;
+    font-size: 15px;
+    font-family: Corbel, sans-serif;
+    margin-top: 20px;
+    color: black;
+    background-color: #efe70b;
+    border-radius: 7px;
+    padding: 8px 15px;
+    cursor: pointer;
+    border: none;
+}
+
+.header-right:hover{
+    background-color: #efe70b;
+}
+
+.classtable {
+    position: relative;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    top: 80px;
+    height: auto;
+    border-collapse: collapse;
+    border-width: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 0;
+}
+
+.classtable tr:nth-child(even){
+    background-color: #ffffff;
+}
+
+.classtable tr:nth-child(odd){
+    background-color: #e2e2e2;
+}
+
+.classtable th{
+    width: 500px;
+    font-size: 15px;
+    background-color: #efe70b;
+    color: black;
+}
+
+.classtable tbody, thead{
+    display: block;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.classtable tbody{
+    overflow: auto;
+    height: 348px;  /** actual height of classtable  */
+    
+}
+
+}.classtable td{
+    font-size: 15px;
+}
+
+.classtable, th, td{
+    padding: 12px;
+    width: 770px; /** row width  */
+    color: #383838;
+}
+
+/* PAGE 3 css */
+
+.addClassModal-body {
+    padding: 20px;
+}
+.addClassModal-header,
+.addClassModal-footer {
+    padding: 10px 20px;
+    height: 35px;
+}
+.addClassModal-header {
+    border-bottom: #eeeeee solid 1px;
+}
+.addClassModal-header h2 {
+    font-size: 25px;
+    margin-top: 2px;
+}
+.addClassModal-footer {
+    border-top: #eeeeee solid 1px;
+    text-align: right;
+}
+
+.addClassModal-input{
+    margin-left: -25px;
+    margin-top: -10px;
+}
+.addClassModal-input li{
+    padding: 3px 0 0 0;
+    list-style: none;
+}
+
+.addClassModal-input li:nth-child(6){
+    margin-bottom:15px;
+}
+
+.addClassTable-wrap{
+    position: absolute;
+    top: 70px;
+    left: 250px;
+    width: 320px;
+    background: rgba(223, 244, 255, .6);
+}
+
+.addClassTable-header{
+    position: absolute;
+    display: inline;
+    left: 0%;
+    right: 0%;
+    width: 320px;
+}
+
+.addClassTable-header p{
+    position: absolute;
+    font-weight: bold;
+    width: 120px;
+    top: -1px;
+    left: 10px;
+}
+
+.addClassTable {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 40px;
+    height: auto;
+    border-collapse: collapse;
+    border-width: 0px;
+}
+
+.addClassTable tr:nth-child(even){
+    background-color: #ffffff;
+}
+
+.addClassTable tr:nth-child(odd){
+    background-color: #e2e2e2;
+}
