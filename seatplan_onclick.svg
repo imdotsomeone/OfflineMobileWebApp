@@ -64,7 +64,7 @@ xmlns:xlink="http://www.w3.org/1999/xlink">
 
       // set element onclick event handler
       window.onload=function() {
-        for(let i=1; i<=5 ; i++){
+        for(let i=1; i<=60 ; i++){
          var square = document.getElementById("XMLID_"+i);
         console.log(square);
          // onclick event handler, change circle radius
