@@ -2,7 +2,7 @@
 A repository for the files in our project offline mobile web app
 
 # ContentManagementSystem 
-# Here you will learn on how to install lamp wordpress using ubuntu server in just 10 steps.
+Here you will learn on how to install lamp wordpress using ubuntu server in just 10 steps.
   step1 - Go to the vmware where the ubuntu terminal is open.
   step2 - Go to the Root Directory by using the code "sudo su -".
   step3 - After going to the root directory, update the system by typing "sudo apt-get update".
