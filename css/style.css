@@ -3,6 +3,10 @@
     display: none;  
 }
 
+a{
+    text-decoration: none;
+}
+
 
 .page1{
     //display: block;
@@ -24,7 +28,10 @@
     left: 00%;
     width: 100%;
     height: 100%;
-    background-image: url(../Photos/background.jpg);
+     background-image: url(../Photos/background.jpg);
+    background-position: center;
+    background-size: 155%;
+    background-repeat: no-repeat;
 }
 
 .page3{
@@ -35,6 +42,9 @@
     width: 100%;
     height: 100%;
     background-image: url(../Photos/background.jpg);
+    background-position: center;
+    background-size: 155%;
+    background-repeat: no-repeat;
 }
 
 .page4{
@@ -44,7 +54,10 @@
     left: 0%;
     width: 100%;
     height: 100%;
-    background-image: url(../Photos/background.jpg)
+     background-image: url(../Photos/background.jpg);
+    background-position: center;
+    background-size: 155%;
+    background-repeat: no-repeat;
 }
 
 .page5{
@@ -54,7 +67,10 @@
     left: 0%;
     width: 100%;
     height: 100%;
-    background-image: url(../Photos/background.jpg)
+    background-image: url(../Photos/background.jpg);
+    background-position: center;
+    background-size: 155%;
+    background-repeat: no-repeat;
 }
 
 .page6{
@@ -64,7 +80,10 @@
     left: 0%;
     width: 100%;
     height: 100%;
-    background-image: url(../Photos/background.jpg)
+     background-image: url(../Photos/background.jpg);
+    background-position: center;
+    background-size: 155%;
+    background-repeat: no-repeat;
 }
 
 .page7{
@@ -74,7 +93,10 @@
     left: 0%;
     width: 100%;
     height: 100%;
-    background-image: url(../Photos/background.jpg)
+     background-image: url(../Photos/background.jpg);
+    background-position: center;
+    background-size: 155%;
+    background-repeat: no-repeat;
 }
 
 .landing-logo{
@@ -153,6 +175,7 @@ li{
     top: 110px;
     color: #ffffff;
     text-shadow: 1px 1px #573232;
+    font-family: appFont;
 }
 
 .main-text em{
@@ -189,11 +212,12 @@ li{
     float: left;
     color: #ffffff;
     text-shadow: 1px 1px #573232;
+    font-family: appFont;
 }
 
 .header-right{
     float: right;
-    font-size: 15px;
+    font-size: 25px;
     font-family: Corbel, sans-serif;
     margin-top: 20px;
     color: black;
@@ -202,6 +226,7 @@ li{
     padding: 8px 15px;
     cursor: pointer;
     border: none;
+    
 }
 
 .header-right:hover{
@@ -232,9 +257,10 @@ li{
 
 .classtable th{
     width: 500px;
-    font-size: 15px;
+    font-size: 25px;
     background-color: #efe70b;
     color: black;
+    font-family: appFont;
 }
 
 .classtable tbody, thead{
@@ -261,16 +287,22 @@ li{
 
 /* PAGE 3 css */
 
+.addClassModal{
+}
+
 .addClassModal-body {
     padding: 20px;
+    width: 50%;
 }
 .addClassModal-header,
 .addClassModal-footer {
     padding: 10px 20px;
     height: 35px;
+    width: 50%;
 }
 .addClassModal-header {
     border-bottom: #eeeeee solid 1px;
+    font-family: appFont;
 }
 .addClassModal-header h2 {
     font-size: 25px;
@@ -284,6 +316,7 @@ li{
 .addClassModal-input{
     margin-left: -25px;
     margin-top: -10px;
+    font-family: appFont;
 }
 .addClassModal-input li{
     padding: 3px 0 0 0;
