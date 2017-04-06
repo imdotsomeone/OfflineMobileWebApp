@@ -1,31 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html manifest="./manifest/manifest.appcache">
     <head>
         <link type="text/css" rel="stylesheet" href="css/style.css" media="screen"/>
         <script language="javascript" type="text/javascript" src="script/script.js" async></script>
 	   <title>
             iTeach
         </title>
-    </head>
+    </head>:
     <body>
-        
         <!-- CODE FOR THE LANDING PAGE 1 -->
         <div class="page1" id="page1">
             <div class="landing-logo">
                 <img src="Photos/iTeachLogo.png">
             </div>
             <div id="landing-container">
-                <form name="classcodeForm" method="post">
-			         <ul>
-                        <li>
-                            Classcode <input id="inputCode" type="text" name="classCode" maxlength="5">
-                        </li>
-                    </ul>				 
-                </form>
+            A Teacher a day,<br> keeps us present <br>all day ...
             <div id="landing-button">
                 <a href="#page2">
-                    <button id="btn" class="button success" onclick="showorhidepage('page2');">
-                        Submit
+                    <button id="btn" class="button" onclick="showorhidepage('page2');">
+                        PROCEED
                     </button>
                 </a>
             </div>
@@ -33,52 +26,70 @@
         </div>
         
         <!-- CODE FOR PAGE 2 | CONFIRM CODE-->
-    <div class="hide" id="page2">
+    <div class="page2 hide" id="page2">
         <div class="confirm-logo"><img src="Photos/iTeachLogo.png"></div>
-            <div id="back-button">
-                <a href="#page1">
-                    <button class="button info" onclick="showorhidepage('page1');">
-                        BACK
-                    </button>
-                </a>
-            </div>
-        <div class="confirm-input">
-                <form class="addClassModal-input" name="checkIfValid" method="post">
-			/*json files here */			 
-                </form>
-        </div>
-                <div>
-                    <a href="#page3">
-                        <button class="button success" onclick="showorhidepage('page3');">
-                            Submit
-                        </button>
-                    </a>
+            <div id="content-wrap">
+                <p class="main-text">Organize your students seatplans, record your stendents attendance, and add a graded recitation record
+                </p>
+                
+                <div class="table-wrap">
+                    <div class="table-header">
+                        <p class="header-left">CLASSES</p>
+                        <form>
+                          <a class="header-right" href="#page3" id="submit" onclick="showorhidepage('page3');">Add a Class</a> <!--MODIFIED-->
+                        </form>
+                    </div>
+                    <table class="classtable">
+                        <thead>
+                        <tr>
+                            <th>CLASS CODE</th>
+                            <th>DESCRIPTION</th>
+                            <th>SCHEDULE</th>
+                        </tr>
+                        </thead>
+                        
+                        <tbody id="tableClasses">
+                        </tbody>
+                    </table>
                 </div>
             </div>
+    </div>
         
         <!-- CODE FOR PAGE 3  CONFIRM CLASSROOM LAYOUT--> 
-        <div class="hide" id="page3">
-            <div class="confirm-logo">
-                        <img src="Photos/iTeachLogo.png">
+    <div class="page3 hide" id="page3">
+        <div class="confirm-logo">
+            <img src="Photos/iTeachLogo.png">
+        </div>
+            <div class="addClassModal" id="addClassOpen" aria-hidden="true">
+                <div class="addClassModal-dialog">
+                    <div class="addClassModal-header">
+                        <h2>ADD A CLASS</h2>
+                        <a href="#close" class="addClassModal-close" aria-hidden="true">close</a> <!--CHANGED TO #close"-->
                     </div>
-                <div class="confirm-layout">
-                    <span id="layout-header">
-                        CLASSROOM LAYOUT
-                    </span>
+                
+                <div class="addClassModal-body">
+                    <form class="addClassModal-input" name="checkIfValid">
+                        <ul>
+                            <li>Class Code:</li>
+                            <li><input type="text" name="classCode" maxlength="4"></li>
+                            <li>Course Description:</li>
+                            <li><input type="text" name="className"></li>
+                            <li>Class Schedule:</li>
+                            <li class="li-sched"><input type="text" name="starttime" placeholder="Time"><input type="text" name="endtime"placeholder="Time"><input type="text" name="day" placeholder="Days"></li>  
+                        </ul>
+                        <div class="addClassModal-footer">
+                    <p class="addClass-status">Click the Finish button to add student to database.</p>
+                    <input type="submit" href="#page3" value="Finish" onclick="javascript:validateClass()" class="btn-finish">
+                    </form>
+                
                 </div>
-                    <div id="room-container">
-                        <a href="#page4">
-                            <button class="button default" onclick="showorhidepage('page4');">
-                                °S527
-                            </button>
-                        </a>
-                    </div>
-        
-            
+                    </form>
+            </div>
+        </div>
         </div>
         
         <!-- CODE FOR PAGE 4 RAW INDEX TEMPORARY--> 
-        <div class="hide" id="page4">
+        <div class="page4 hide" id="page4">
             <div class="confirm-logo">
                         <img src="Photos/iTeachLogo.png">
                     </div>
@@ -109,8 +120,7 @@
         </div>
         
         <!-- CODE FOR PAGE 5  SEATINGS --> 
-        <div class="hide" id="page5">
-        
+        <div class="page5 hide" id="page5">
             <div class="confirm-logo">
                         <img src="Photos/iTeachLogo.png">
                     </div>
@@ -144,7 +154,7 @@
         </div>
         
         <!-- CODE FOR PAGE 6 ATTENDANCE--> 
-        <div class="hide" id="page6">
+        <div class="page6 hide" id="page6">
             <div class="confirm-logo">
                         <img src="Photos/iTeachLogo.png">
                     </div>
@@ -178,7 +188,7 @@
         </div>
         
          <!-- CODE FOR PAGE 7 STANDINGS--> 
-        <div class="hide" id="page7">
+        <div class="page7 hide" id="page7">
             <div class="confirm-logo">
                         <img src="Photos/iTeachLogo.png">
                     </div>
