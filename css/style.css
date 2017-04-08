@@ -1,23 +1,32 @@
 
-.hide {
+.show{
+    display: 'block;
+}
+
+.hide{
     display: none;  
 }
 
+
 a{
     text-decoration: none;
+}
+
+footer{
+    font-family: appFont;
+    font-size: 50%;
+    display: block;
 }
 
 
 .page1{
     //display: block;
     position: absolute;
-    top: 0%;
-    left:0%;
     width: 100%;
     height: 100%;
-    background-image: url(../Photos/background.jpg);
+    background-image: url(../Photos/background2.jpg);
     background-position: center;
-    background-size: 155%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -28,9 +37,9 @@ a{
     left: 00%;
     width: 100%;
     height: 100%;
-     background-image: url(../Photos/background.jpg);
+     background-image: url(../Photos/background2.jpg);
     background-position: center;
-    background-size: 155%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -41,9 +50,9 @@ a{
     left: 0%;
     width: 100%;
     height: 100%;
-    background-image: url(../Photos/background.jpg);
+    background-image: url(../Photos/background2.jpg);
     background-position: center;
-    background-size: 155%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -54,9 +63,9 @@ a{
     left: 0%;
     width: 100%;
     height: 100%;
-     background-image: url(../Photos/background.jpg);
+     background-image: url(../Photos/background2.jpg);
     background-position: center;
-    background-size: 155%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -67,9 +76,9 @@ a{
     left: 0%;
     width: 100%;
     height: 100%;
-    background-image: url(../Photos/background.jpg);
+    background-image: url(../Photos/background2.jpg);
     background-position: center;
-    background-size: 155%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -80,9 +89,9 @@ a{
     left: 0%;
     width: 100%;
     height: 100%;
-     background-image: url(../Photos/background.jpg);
+     background-image: url(../Photos/background2.jpg);
     background-position: center;
-    background-size: 155%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -93,9 +102,9 @@ a{
     left: 0%;
     width: 100%;
     height: 100%;
-     background-image: url(../Photos/background.jpg);
+     background-image: url(../Photos/background2.jpg);
     background-position: center;
-    background-size: 155%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -158,9 +167,9 @@ li{
 
 /* For the Table of Classes */
 #content-wrap{
-    margin-top: -90px !important;
+    /*margin-top: -90px !important;*/
     position: relative;
-    height: 100%;
+    /*height: 100%;*/
 }
 
 .main-text{

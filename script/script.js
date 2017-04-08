@@ -1,6 +1,8 @@
-function showorhidepage(id){
+function showorhidepage(id, id2){
     var divelement = document.getElementById(id);
+    var divelement2 = document.getElementById(id2);
         divelement.classList.toggle('hide');
+        divelement2.classList.toggle('hide');
 }
 //GLOBAL VARS
 var status;

@@ -9,7 +9,7 @@
     </head>:
     <body>
         <!-- CODE FOR THE LANDING PAGE 1 -->
-        <div class="page1" id="page1">
+        <div class="page1 show" id="page1">
             <div class="landing-logo">
                 <img src="Photos/iTeachLogo.png">
             </div>
@@ -17,12 +17,12 @@
             A Teacher a day,<br> keeps us present <br>all day ...
             <div id="landing-button">
                 <a href="#page2">
-                    <button id="btn" class="button" onclick="showorhidepage('page2');">
+                    <button id="btn" class="button" onclick="showorhidepage('page2','page1');">
                         PROCEED
                     </button>
                 </a>
             </div>
-    </div>        
+            </div>
         </div>
         
         <!-- CODE FOR PAGE 2 | CONFIRM CODE-->
@@ -37,7 +37,7 @@
                         <p class="header-left">CLASSES</p>
                         <form>
                             <!--MODIFIED-->
-                          <a class="header-right" href="#page3" id="submit" onclick="showorhidepage('page3');">Add Class</a>
+                          <a class="header-right" href="#page3" id="submit" onclick="showorhidepage('page3','page2');">Add Class</a>
                         </form>
                     </div>
                     <table class="classtable">
@@ -222,5 +222,9 @@
             
         </div>
         
+         <footer>
+            <p>Group 5 - BSCS</p>
+            <p> Abaya | Castro | De Leon | Mones | Mortel | Pilarta | SARMIENTO | Zareno</p>
+        </footer>
     </body>
 </html>
