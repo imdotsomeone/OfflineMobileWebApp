@@ -18,6 +18,10 @@ footer{
     display: block;
 }
 
+body{
+    
+}
+
 
 .page1{
     //display: block;
@@ -164,6 +168,15 @@ li{
 
 .info {background-color: #2196F3;} /* Blue */
 .info:hover {background: #0b7dda;}
+
+.main {
+    background-color: #ff9800;
+    font-size: 200%;
+    align-content: center;
+} /* Orange */
+.main:hover {background: #e68a00;}
+
+
 
 /* For the Table of Classes */
 #content-wrap{
