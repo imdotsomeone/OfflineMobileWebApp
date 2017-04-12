@@ -1,0 +1,464 @@
+{  "height":"2200",
+   "width":"1000",
+   "seatplans":[
+       {
+            "id":"teachers table",
+            "x":"400",
+            "y":"1700",
+            "width":"234",
+            "height":"94",
+            "fill":"yellow"
+        },
+       
+        {
+            "id":"seat1",
+            "x":"163",
+            "y":"120",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat2",
+            "x":"163",
+            "y":"241.5",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat3",
+            "x":"163",
+            "y":"362.5",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat4",
+            "x":"163",
+            "y":"483.5",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat5",
+            "x":"163",
+            "y":"605",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+
+
+        {
+            "id":"seat6",
+            "x":"165",
+            "y":"725",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat7",
+            "x":"165",
+            "y":"845",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat8",
+            "x":"165",
+            "y":"965",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat9",
+            "x":"165",
+            "y":"1085",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat10",
+            "x":"165",
+            "y":"1205",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        }, 
+
+        {
+            "id":"seat11",
+            "x":"165",
+            "y":"1325",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat12",
+            "x":"165",
+            "y":"1445",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat13",
+            "x":"403",
+            "y":"1445",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat14",
+            "x":"403",
+            "y":"1565",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat15",
+            "x":"403",
+            "y":"1325",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        }, 
+
+        {
+            "id":"seat16",
+            "x":"403",
+            "y":"1205",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat17",
+            "x":"403",
+            "y":"1085",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat18",
+            "x":"403",
+            "y":"965",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat19",
+            "x":"403",
+            "y":"845",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat20",
+            "x":"403",
+            "y":"725",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        }, 
+
+        {
+            "id":"seat21",
+            "x":"403",
+            "y":"120",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat22",
+            "x":"403",
+            "y":"241.4",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat23",
+            "x":"403",
+            "y":"362.5",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat24",
+            "x":"403",
+            "y":"483.5",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat25",
+            "x":"403",
+            "y":"605",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        }, 
+
+        {
+            "id":"seat26",
+            "x":"525",
+            "y":"120",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat27",
+            "x":"525",
+            "y":"241.5",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat28",
+            "x":"525",
+            "y":"363.5",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat29",
+            "x":"525",
+            "y":"483.5",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat30",
+            "x":"525",
+            "y":"605",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        }, 
+
+        {
+            "id":"seat31",
+            "x":"525",
+            "y":"725",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat32",
+            "x":"525",
+            "y":"845",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat33",
+            "x":"525",
+            "y":"965",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat34",
+            "x":"525",
+            "y":"1085",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat35",
+            "x":"525",
+            "y":"1205",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        }, 
+
+        {
+            "id":"seat36",
+            "x":"525",
+            "y":"1325",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat37",
+            "x":"525",
+            "y":"1445",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat38",
+            "x":"525",
+            "y":"1565",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat39",
+            "x":"755",
+            "y":"483.5",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat40",
+            "x":"755",
+            "y":"605",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        }, 
+
+        {
+            "id":"seat41",
+            "x":"755",
+            "y":"120",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat42",
+            "x":"755",
+            "y":"241.5",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat43",
+            "x":"755",
+            "y":"362.5",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat44",
+            "x":"755",
+            "y":"725",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat45",
+            "x":"755",
+            "y":"845",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        }, 
+
+        {
+            "id":"seat46",
+            "x":"755",
+            "y":"965",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat47",
+            "x":"755",
+            "y":"1085",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat48",
+            "x":"755",
+            "y":"1205",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat49",
+            "x":"755",
+            "y":"1325",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        },
+       
+        {
+            "id":"seat50",
+            "x":"755",
+            "y":"1445",
+            "width":"115",
+            "height":"115",
+            "fill":"greenyellow"
+        }
+    ]
+}
