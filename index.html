@@ -6,7 +6,7 @@
 	   <title>
             iTeach
         </title>
-    </head>:
+    </head>
     <body>
         <!-- CODE FOR THE LANDING PAGE 1 -->
         <div class="page1 show" id="page1">
@@ -15,16 +15,16 @@
             </div>
             <div id="landing-container">
             A Teacher a day,<br> keeps us present <br>all day ...
-            <div id="landing-button">
-                <a href="#page2">
-                    <button id="btn" class="button" onclick="showorhidepage('page2','page1');">
-                        PROCEED
-                    </button>
-                </a>
-            </div>
+                <div id="landing-button">
+                    <a href="#page2">
+                        <button id="btn" class="button" onclick="showorhidepage('page2','page1');">
+                            PROCEED
+                        </button>
+                    </a>
+                </div>
             </div>
         </div>
-        
+    
         <!-- CODE FOR PAGE 2 | CONFIRM CODE-->
     <div class="page2 hide" id="page2">
         <div class="confirm-logo"><img src="Photos/iTeachLogo.png"></div>
@@ -65,7 +65,7 @@
                 <div class="addClassModal-dialog">
                     <div class="addClassModal-header">
                         <h2>ADD A CLASS</h2>
-                        <a href="#page2" class="addClassModal-close" aria-hidden="true">close</a> <!--CHANGED TO #close"-->
+                        <a href="#page2" onclick="showorhidepage('page3','page2');">close</a> <!--CHANGED TO #close"-->
                     </div>
                 
                 <div class="addClassModal-body">
@@ -87,6 +87,7 @@
             </div>
         </div>
         </div>
+        </div>
         
         <!-- CODE FOR PAGE 4 RAW INDEX TEMPORARY--> 
         <div class="page4 hide" id="page4">
@@ -96,17 +97,17 @@
     
                 <nav>
                         <a href="#page5">
-                            <button class="button main" onclick="showorhidepage('page5');">
+                            <button class="button main seatings" onclick="showorhidepage('page5', 'page4');">
                                 Seatings
                             </button>
                         </a>
                         <a href="#page6">
-                            <button class="button main" onclick="showorhidepage('page6');">
+                            <button class="button main attendance" onclick="showorhidepage('page6', 'page4');">
                                 Attendance
                             </button>
                         </a>
                         <a href="#page7">
-                            <button class="button main" onclick="showorhidepage('page7');">
+                            <button class="button main standings" onclick="showorhidepage('page7', 'page4');">
                                 Standings
                             </button>
                         </a>
@@ -121,17 +122,17 @@
     
                     <nav>
                         <a href="#page5">
-                            <button class="button main" onclick="showorhidepage('page5');">
+                            <button class="button main seatings" onclick="showorhidepage('page5', 'page5');">
                                 Seatings
                             </button>
                         </a>
                         <a href="#page6">
-                            <button class="button main" onclick="showorhidepage('page6');">
+                            <button class="button main attendance" onclick="showorhidepage('page6', 'page5');">
                                 Attendance
                             </button>
                         </a>
                         <a href="#page7">
-                            <button class="button main" onclick="showorhidepage('page7');">
+                            <button class="button main standings" onclick="showorhidepage('page7', 'page5');">
                                 Standings
                             </button>
                         </a>
@@ -149,17 +150,17 @@
     
                     <nav>
                         <a href="#page5">
-                            <button class="button main" onclick="showorhidepage('page5');">
+                            <button class="button main seatings " onclick="showorhidepage('page5', 'page6');">
                                 Seatings
                             </button>
                         </a>
                         <a href="#page6">
-                            <button class="button main" onclick="showorhidepage('page6');">
+                            <button class="button main attendance" onclick="showorhidepage('page6', 'page6');">
                                 Attendance
                             </button>
                         </a>
                         <a href="#page7">
-                            <button class="button main" onclick="showorhidepage('page7');">
+                            <button class="button main standings" onclick="showorhidepage('page7', 'page6');">
                                 Standings
                             </button>
                         </a>
@@ -176,17 +177,17 @@
                     </div>
                     <nav>
                         <a href="#page5">
-                            <button class="button main" onclick="showorhidepage('page5');">
+                            <button class="button main seatings" onclick="showorhidepage('page5', 'page7');">
                                 Seatings
                             </button>
                         </a>
                         <a href="#page6">
-                            <button class="button main" onclick="showorhidepage('page6');">
+                            <button class="button main attendance" onclick="showorhidepage('page6', 'page7');">
                                 Attendance
                             </button>
                         </a>
                         <a href="#page7">
-                            <button class="button main" onclick="showorhidepage('page7');">
+                            <button class="button main standings" onclick="showorhidepage('page7','page7');">
                                 Standings
                             </button>
                         </a>
@@ -196,10 +197,5 @@
                         </div>
             
         </div>
-        
-         <footer>
-            <p>Group 5 - BSCS</p>
-            <p> Abaya | Castro | De Leon | Mones | Mortel | Pilarta | SARMIENTO | Zareno</p>
-        </footer>
     </body>
 </html>
