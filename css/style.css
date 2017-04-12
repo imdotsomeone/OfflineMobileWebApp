@@ -19,12 +19,22 @@ footer{
 }
 
 body{
-    
+    font-family: appFont;
 }
 
 
 .page1{
-    //display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../Photos/blurbg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backg
+}
+
+.page2{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -34,21 +44,7 @@ body{
     background-repeat: no-repeat;
 }
 
-.page2{
-    //display: none;
-    position: absolute;
-    top: 0%;
-    left: 00%;
-    width: 100%;
-    height: 100%;
-     background-image: url(../Photos/background2.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 .page3{
-    //display: none;
     position: absolute;
     top: 0%;
     left: 0%;
@@ -61,7 +57,6 @@ body{
 }
 
 .page4{
-    //display: none;
     position: absolute;
     top: 0%;
     left: 0%;
@@ -74,7 +69,6 @@ body{
 }
 
 .page5{
-    //display: none;
     position: absolute;
     top: 0%;
     left: 0%;
@@ -87,7 +81,6 @@ body{
 }
 
 .page6{
-    //display: none;
     position: absolute;
     top: 0%;
     left: 0%;
@@ -100,7 +93,6 @@ body{
 }
 
 .page7{
-    //display: none;
     position: absolute;
     top: 0%;
     left: 0%;
@@ -126,7 +118,7 @@ body{
 
 #landing-container{
     position: absolute;
-    top:50%;
+    top:35%;
     left: 10%;
     font-size: 400%;
     font-family: appFont;
@@ -171,8 +163,9 @@ li{
 
 .main {
     background-color: #ff9800;
-    font-size: 200%;
+    font-size: 280%;
     align-content: center;
+    font-family:appFont;
 } /* Orange */
 .main:hover {background: #e68a00;}
 
@@ -198,6 +191,18 @@ li{
     color: #ffffff;
     text-shadow: 1px 1px #573232;
     font-family: appFont;
+}
+
+.seatings{
+    left:10%;
+}
+
+.attendance{
+    left:34%;
+}
+
+.standings{
+    left:64%;
 }
 
 .main-text em{
