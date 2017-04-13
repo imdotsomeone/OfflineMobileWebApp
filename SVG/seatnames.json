@@ -1,0 +1,9 @@
+{  "height":"1024",
+   "width":"2000",
+   "text":[ {"id":"seat1", "x":"893", "y":"900", "font-family":"Verdana", "font-size":"16", "fill":"blue"},
+            {"id":"seat1", "x":"172", "y":"175", "font-family":"Verdana", "font-size":"16", "fill":"blue"},
+            {"id":"seat1", "x":"172", "y":"417.5", "font-family":"Verdana", "font-size":"16", "fill":"blue"},
+            {"id":"seat1", "x":"172", "y":"538.5", "font-family":"Verdana", "font-size":"16", "fill":"blue"},
+            {"id":"seat1", "x":"172", "y":"660", "font-family":"Verdana", "font-size":"16", "fill":"blue"}
+           ]
+}

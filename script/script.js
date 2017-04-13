@@ -134,19 +134,6 @@ function validateClass(){
     }
 }
 
-/*document.getElementById("delete").onclick = function () {
-    var table = document.getElementsByClass("classtable");
-    var lastRow = table.rows[table.rows.length];
-    table.deleteRow(lastRow);
-    tableSelect();
-}*/
-
-// loadJSON
-/* Reads a JSON file and passes its handling to a handler function
- *
- * jsonFileName - the name of the JSON file to read (without the.json extension)
- * jsonHandler - the function that will use the JSON file's data
- */
 function loadJSON(jsonFileName, jsonHandler) {
   var jsonRequest = new XMLHttpRequest();
   jsonRequest.open("GET","scripts/"+ jsonFileName +".json",true);
@@ -216,6 +203,7 @@ function setDefaultClickAndClick() {
 }
 
 function showClassesInTable() {
+
   globalClassIndex = localStorage.length;
   
   var classesTable = document.getElementById("tableClasses"); 
@@ -227,48 +215,16 @@ function showClassesInTable() {
     var cell2 = row.insertCell(1);
     var cell3 = row.insertCell(2);
     row.setAttribute("id", "classRow"+i);
-    row.setAttribute("onclick",'href="#page5"');
+    row.setAttribute("onclick","showSeatPlan()");
     cell1.innerHTML=tempClass.classCode;
     cell2.innerHTML=tempClass.className;
     cell3.innerHTML=tempClass.classSchedule;
   }
 }
 
-function showSeatPlan(classNumber) {
-  selectedClass = classNumber;
-  location.href = '#classSelectOpen'; 
-  
-  var tempClass = JSON.parse(localStorage.getItem("class"+classNumber));
-  
-  var seatPlanStudentList = document.getElementById("seatPlanTable");
-  seatPlanStudentList.innerHTML="";
-  
-  for(var i=0; i<tempClass.students.length; i++) {
-    var row = seatPlanStudentList.insertRow(0);
-    var cell1 = row.insertCell(0);
-    var cell2 = row.insertCell(1);
-    var cell3 = row.insertCell(2);
-    var cell4 = row.insertCell(3);
-    row.setAttribute("id", "seatPlanListRow"+i);
-    row.setAttribute("onclick", "storeClickAndClick(" + i + "," + classNumber + ")");
-    cell1.innerHTML=tempClass.students[i].idNumber;
-    cell2.innerHTML=tempClass.students[i].name;
-    cell3.innerHTML=tempClass.students[i].gender;
-    cell4.innerHTML=tempClass.students[i].course;
-  }
-  
-    for(var i=0; i<2; i++) {
-      for(var j=0; j<5; j++) {
-        for(var k=0; k<5; k++) {
-          var wing = i==0?"l":"r";
-          var tempCell = document.getElementById(wing+j+k);
-//          console.log(wing+i+j);
-//          console.log(i+" "+j+" "+k+" "+tempClass.seatplan[i][j][k]);
-          tempCell.innerHTML=tempClass.seatplan[i][j][k];
-        }
-      }
-    }
-
+function showSeatPlan() {
+  location.href = '#page6'; 
+  showorhidepage('page6','page2');
 }
 
 function storeClickAndClick(studNum, classNum) {

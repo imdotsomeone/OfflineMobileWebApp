@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>iTeach</title>
+	<script src="script.js" type="text/javascript"></script>
+
+</head>
+<body>
+<div id="container">
+<svg id="seatplan">
+<style type="text/css">
+	.st0{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}
+</style>
+<script type="text/ecmascript">
+    <![CDATA[
+
+      // set element onclick event handler
+      window.onload=function() {
+        for(let i=1; i<=60 ; i++){
+         var square = document.getElementById("seat"+i);
+        console.log(square);
+         // onclick event handler, change circle radius
+         square.onclick = function() {
+            console.log(this);
+            var color = this.getAttribute("fill");
+            if (color == "greenyellow") {
+               this.setAttribute("fill", "orange");
+            } else if (color == "orange") {
+               this.setAttribute("fill","red");
+            } else {
+                this.setAttribute("fill","greenyellow");
+            }
+         }
+      }
+    }
+    ]]>
+ </script>
+</svg>
+</div>
+
+<script type="text/javascript">
+	parseMainSVG("2000", "1024", "seatplan", "container");
+	generateRectElement(rectelem["seatplans"]);
+	//generateNames(snamedata["text"]);
+</script>
+</body>
+</html>

@@ -1,0 +1,265 @@
+{ "students" :
+  [ {
+    "idNumber" : 2150123,
+    "name" : "Abalos, James",
+    "gender" : "M",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2150998,
+    "name" : "Abaya, Raphael",
+    "gender" : "M",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2151001,
+    "name" : "Agcon, April Joy",
+    "gender" : "F",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2150023,
+    "name" : "Alunday, Kyla Kate",
+    "gender" : "F",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2140998,
+    "name" : "Aspiras, Adrian John",
+    "gender" : "M",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2152010,
+    "name" : "Buen, Mitchelle",
+    "gender" : "F",
+    "course" : "BSIA"
+  },{
+    "idNumber" : 2141598,
+    "name" : "Canaria, Patricia Anne",
+    "gender" : "F",
+    "course" : "BSIT"
+  },{
+    "idNumber" : 2145223,
+    "name" : "Carantes, Ethnica Jaya",
+    "gender" : "F",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2142023,
+    "name" : "Cardenas, David Wyatt",
+    "gender" : "M",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2150223,
+    "name" : "Castro, Alissa",
+    "gender" : "F",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2145678,
+    "name" : "Catalan, Jimuel",
+    "gender" : "M",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2157867,
+    "name" : "Chakas, Shary Gayle",
+    "gender" : "F",
+    "course" : "BSIT"
+  },{
+    "idNumber" : 2157864
+    "name" : "Cruz, Julie Anne",
+    "gender" : "F",
+    "course" : "BSIA"
+  },{
+    "idNumber" : 2151282,
+    "name" : "Dadula, Jason Paul",
+    "gender" : "M",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2152389,
+    "name" : "David, Josepablo",
+    "gender" : "M",
+    "course" : "BSIT"
+  },{
+    "idNumber" : 2147896,
+    "name" : "De Ayre, Seanielle",
+    "gender" : "F",
+    "course" : "BSIA"
+  },{
+    "idNumber" : 2153142,
+    "name" : "Defeo, Stephany Ann",
+    "gender" : "F",
+    "course" : "BSIT"
+  },{
+    "idNumber" : 2152785,
+    "name" : "Del Rosario, Jerome",
+    "gender" : "M",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2151100,
+    "name" : "DeLeon, Dominik",
+    "gender" : "M",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2145783,
+    "name" : "Dicen, Shania",
+    "gender" : "F",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2151333,
+    "name" : "Donalson, Duane",
+    "gender" : "M",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2142175,
+    "name" : "Eguilos, Jules Marvin",
+    "gender" : "M",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2151098,
+    "name" : "Enriquez, Mark",
+    "gender" : "M",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2145723,
+    "name" : "Erese, Erico",
+    "gender" : "M",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2143383,
+    "name" : "Erfe, Robinhood",
+    "gender" : "M",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2155283,
+    "name" : "Fabrigas, Rachel",
+    "gender" : "F",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2151283,
+    "name" : "Fablatin, Tyus",
+    "gender" : "M",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2158923,
+    "name" : "Fernandez, Alainne",
+    "gender" : "F",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2151233,
+    "name" : "Fernandez, Anthony",
+    "gender" : "F",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2155283,
+    "name" : "Gamboa, Justine",
+    "gender" : "F",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2141283,
+    "name" : "Huliganga, Jhoanne Thea",
+    "gender" : "F",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2145734,
+    "name" : "Jimenez, Zebedee",
+    "gender" : "M",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2151703,
+    "name" : "Kolodzik, Rio Vann",
+    "gender" : "M",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2146283,
+    "name" : "Lee, Mandy Maurice",
+    "gender" : "M",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2155723,
+    "name" : "Liwanag, John Derick",
+    "gender" : "M",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2155703,
+    "name" : "Lopez, Samantha",
+    "gender" : "F",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2155783,
+    "name" : "Manantan, John Carlo",
+    "gender" : "F",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2155683,
+    "name" : "Manlansing, Randylle",
+    "gender" : "F",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2151017,
+    "name" : "Mariano, Clark",
+    "gender" : "M",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2154201,
+    "name" : "Medina, Isaac",
+    "gender" : "M",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2155092,
+    "name" : "Mondiguing, Ali Brian",
+    "gender" : "M",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2156897,
+    "name" : "Mones, Angelica",
+    "gender" : "F",
+    "course" : "BSCS"
+  },
+  {
+    "idNumber" : 2156056,
+    "name" : "Mortel, Bobbie Lynne",
+    "gender" : "F",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2152034,
+    "name" : "Prado, Jhennie",
+    "gender" : "F",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2151110,
+    "name" : "Reynon, Paul Kennedy",
+    "gender" : "M",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2151060,
+    "name" : "Rivera, Micheal John",
+    "gender" : "M",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2157990,
+    "name" : "Sahagun, Saan William",
+    "gender" : "M",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2156602,
+    "name" : "Sarmiento, Francesca Miguelle",
+    "gender" : "F",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2155021,
+    "name" : "Sevilla, Louella Darlene",
+    "gender" : "F",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2156083,
+    "name" : "Ugaldo, Jovi Rose",
+    "gender" : "F",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2157183,
+    "name" : "Uematsu, Hiromi",
+    "gender" : "M",
+    "course" : "BSCS"
+  },{
+    "idNumber" : 2151202,
+    "name" : "Zareno, Francis Troy",
+    "gender" : "M",
+    "course" : "BSCS"
+  },] 
+  
+}<!--END of the student json file-->

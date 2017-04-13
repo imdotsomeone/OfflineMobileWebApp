@@ -1,0 +1,230 @@
+"text":[
+    { 
+        "x":"893", 
+        "y":"29", 
+        "font-family":"Verdana", 
+        "font-size":"23", 
+        "fill":"blue" 
+    },
+    { 
+        "id":"text1", 
+        "x":"172", 
+        "y":"175", 
+        "font-family":"Verdana", 
+        "font-size":"23", 
+        "fill":"blue" 
+    },
+    { 
+        "id":"text2", 
+        "x":"172", 
+        "y":"296.5", 
+        "font-family":"Verdana", 
+        "font-size":"23", 
+        "fill":"blue" 
+    },
+    { 
+        "id":"text3", 
+        "x":"172", 
+        "y":"417.5", 
+        "font-family":"Verdana", 
+        "font-size":"23", 
+        "fill":"blue" 
+    },
+    { 
+        "x":"172",
+        "y":"538.5", 
+        "font-family":"Verdana", 
+        "font-size":"23", 
+        "fill":"blue" 
+    },
+    { 
+        "x":"172", 
+        "y":"660", 
+        "font-family":"Verdana", 
+        "font-size":"23", 
+        "fill":"blue" 
+    },
+    { 
+        "x":"293", 
+        "y":"175", 
+        "font-family":"Verdana", 
+        "font-size":"23", 
+        "fill":"blue"
+    },
+    { 
+        "x":"293", 
+        "y":"296.5", 
+        "font-family":"Verdana", 
+        "font-size":"23", 
+        "fill":"blue"
+    },
+    { 
+        "x":"293", 
+        "y":"417.5", 
+        "font-family":"Verdana", 
+        "font-size":"23", 
+        "fill":"blue"
+    },
+    { 
+        "x":"293", 
+        "y":"538.5", 
+        "font-family":"Verdana", 
+        "font-size":"23", 
+        "fill":"blue"
+    },
+    { 
+        "x":"293", 
+        "y":"660", 
+        "font-family":"Verdana", 
+        "font-size":"23", 
+        "fill":"blue"
+    },
+    { 
+        "x":"412", 
+        "y":"175", 
+        "font-family":"Verdana", 
+        "font-size":"23", 
+        "fill":"blue"
+    },
+    { 
+        "x":"412", 
+        "y":"296.5", 
+        "font-family":"Verdana", 
+        "font-size":"23", 
+        "fill":"blue"
+    },
+    { 
+        "x":"412", 
+        "y":"417.5", 
+        "font-family":"Verdana", 
+        "font-size":"23", 
+        "fill":"blue"
+    },
+    { 
+        "x":"412", 
+        "y":"538.5", 
+        "font-family":"Verdana", 
+        "font-size":"23", 
+        "fill":"blue"
+    },
+    { 
+        "x":"412", 
+        "y":"660", 
+        "font-family":"Verdana", 
+        "font-size":"23", 
+        "fill":"blue"
+    },
+    { 
+        "x":"531", 
+        "y":"175", 
+        "font-family":"Verdana", 
+        "font-size":"23", 
+        "fill":"blue"
+    },
+    { 
+        "x":"531", 
+        "y":"296.5", 
+        "font-family":"Verdana", 
+        "font-size":"23", 
+        "fill":"blue"
+    },
+    { 
+        "x":"531", 
+        "y":"417.5", 
+        "font-family":"Verdana", 
+        "font-size":"23", 
+        "fill":"blue"
+    },
+    { 
+        "x":"531", 
+        "y":"538.5", 
+        "font-family":"Verdana", 
+        "font-size":"23", 
+        "fill":"blue"
+    },
+    { 
+        "x":"531",
+        "y":"660", 
+        "font-family":"Verdana", 
+        "font-size":"23", 
+        "fill":"blue"
+    },
+    { 
+        "x":"649", 
+        "y":"175", 
+        "font-family":"Verdana", 
+        "font-size":"23", 
+        "fill":"blue"
+    },
+    { 
+        "x":"649", 
+        "y":"296.5",  
+        "font-family":"Verdana", 
+        "font-size":"23", 
+        "fill":"blue"
+    },
+    { 
+        "x":"649", 
+        "y":"417.5", 
+        "font-family":"Verdana", 
+        "font-size":"23", 
+        "fill":"blue"
+    },
+    { 
+        "x":"649", 
+        "y":"538.5", 
+        "font-family":"Verdana", 
+        "font-size":"23", 
+        "fill":"blue"
+    },
+    { 
+        "x":"649", 
+        "y":"660", 
+        "font-family":"Verdana", 
+        "font-size":"23", 
+        "fill":"blue"
+    },
+    { 
+        "x":"1235", 
+        "y":"175", 
+        "font-family":"Verdana", 
+        "font-size":"23", 
+        "fill":"blue"
+    },
+    { 
+        "x":"1235", 
+        "y":"296.5", 
+        "font-family":"Verdana", 
+        "font-size":"23", 
+        "fill":"blue"
+    },
+    { 
+        "x":"1235", 
+        "y":"417.5", 
+        "font-family":"Verdana", 
+        "font-size":"23", 
+        "fill":"blue"
+    },
+    { "x":"1235", "y":"538.5", "font-family":"Verdana", "font-size":"23", "fill":"blue"},
+    { "x":"1235", "y":"660", "font-family":"Verdana", "font-size":"23", "fill":"blue"},
+    { "x":"1356", "y":"175", "font-family":"Verdana", "font-size":"23", "fill":"blue"},
+    { "x":"1356", "y":"296.5", "font-family":"Verdana", "font-size":"23", "fill":"blue"},
+    { "x":"1356", "y":"417.5", "font-family":"Verdana", "font-size":"23", "fill":"blue"},
+    { "x":"1356", "y":"538.5", "font-family":"Verdana", "font-size":"23", "fill":"blue"},
+    { "x":"1356", "y":"660", "font-family":"Verdana", "font-size":"23", "fill":"blue"},
+    { "x":"1475", "y":"175", "font-family":"Verdana", "font-size":"23", "fill":"blue"},
+    { "x":"1475", "y":"296.5", "font-family":"Verdana", "font-size":"23", "fill":"blue"},
+    { "x":"1475", "y":"417.5", "font-family":"Verdana", "font-size":"23", "fill":"blue"},
+    { "x":"1475", "y":"538.5", "font-family":"Verdana", "font-size":"23", "fill":"blue"},
+    { "x":"1475", "y":"660", "font-family":"Verdana", "font-size":"23", "fill":"blue"},
+    { "x":"1594", "y":"175", "font-family":"Verdana", "font-size":"23", "fill":"blue"},
+    { "x":"1594", "y":"296.5", "font-family":"Verdana", "font-size":"23", "fill":"blue"},
+    { "x":"1594", "y":"417.5", "font-family":"Verdana", "font-size":"23", "fill":"blue"},
+    { "x":"1594", "y":"538.5", "font-family":"Verdana", "font-size":"23", "fill":"blue"},
+    { "x":"1594", "y":"660", "font-family":"Verdana", "font-size":"23", "fill":"blue"},
+    { "x":"1712", "y":"175", "font-family":"Verdana", "font-size":"23", "fill":"blue"},
+    { "x":"1712", "y":"296.5", "font-family":"Verdana", "font-size":"23", "fill":"blue"},
+    { "x":"1712", "y":"417.5", "font-family":"Verdana", "font-size":"23", "fill":"blue"},
+    { "x":"1712", "y":"538.5", "font-family":"Verdana", "font-size":"23", "fill":"blue"},
+    { "x":"1712", "y":"660", "font-family":"Verdana", "font-size":"23", "fill":"blue"}
+]
