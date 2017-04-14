@@ -31,3 +31,16 @@ iTeach is an offline application for the teachers. Calling students one by one f
   #step8 - After doing all right, restart your ubuntu to finish intalling wordpress by this code "sudo service apache2 restart".
   #step9 - After doing step8, you can now check you ipaddress by typing "ifconfig".
   #step10 - Doing those step right, you can now setup wordpress using your windows browser by this code "http://ipaddress/wordpress".
+  
+#CMS: In these steps, you will learn how to change the default ipaddress "192.168.x.xy" to your preferred domain name 
+(e.g: "http://www.yourpreferredname.com").
+#step1 - open your virtualmachine and run your ova file.
+#step2 - after opening your ova file, use the code "ifconfig" to see your default ipaddress by looking at the "inet address: "192.168.x.xy"
+#step3 - after getting the needed ipaddress, you can now start opening any text editor and run it as administrator. 
+#step4 - after opening any text editor, go to drive c: manually or any drive where your system is. 
+#step5 - in the driver, look for the folder "Windows", and open it, look for the folder "system32"
+#step6 - in the "system32", look for another folder named "drivers" and in that folder the file type named "hosts" where you will change the ipaddress to the domain name. 
+#step7 - open the hosts file to the text editor runned as administrator. 
+#step8 - in the text editor, you will type the ipaddress below the last line "192.168.x.xy" and type again after that with space "www.domainname.com"
+#step9 - save the file and clear your cache and browser history for it to run. 
+#step10 - open your website via domain name "www.domainname.com" for the ubuntu server to run, "www.domainname.com/wordpress" for the whole website, "www.domainname.com/wordpress/wp-admin" for the admin.
