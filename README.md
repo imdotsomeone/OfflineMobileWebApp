@@ -35,6 +35,23 @@ ABOUT
 - COURSES OFFERED
 - CONTACT US (MAP & MESSAGE FORM)
 
+# What plugins were being used?
+- HUGE-IT SLIDER
+- VERTICAL NEWS SCROLL
+- SITEORIGIN WIDGETS
+- siteOrigin Google map
+- siteOrigin Hero
+- siteOrigin Features
+- siteOrigin Editor
+- siteOrigin Headline
+- siteOrigin Slider
+- BEAVER BUILDER
+- CAROUSEL SLIDER
+- EVENT CALENDAR WD
+- VISUALIZER: CHARTS AND GRAPHS LITE
+- HEAD, FOOTER AND POST INJECTIONS
+- CONTACT FORM 7
+- SCROLL BACK TO TOP
 
 # ContentManagementSystem 
 #Here you will learn on how to install lamp wordpress using ubuntu server in just 10 steps.
