@@ -81,13 +81,13 @@ We used Wordress because it enables us to make a fully functional applications a
   
 CMS: In these steps, you will learn how to change the default ipaddress "192.168.x.xy" to your preferred domain name 
 (e.g: "http://www.yourpreferredname.com").
-step1 - open your virtualmachine and run your ova file.
-step2 - after opening your ova file, use the code "ifconfig" to see your default ipaddress by looking at the "inet address: "192.168.x.xy"
-step3 - after getting the needed ipaddress, you can now start opening any text editor and run it as administrator. 
-step4 - after opening any text editor, go to drive c: manually or any drive where your system is. 
-step5 - in the driver, look for the folder "Windows", and open it, look for the folder "system32"
-step6 - in the "system32", look for another folder named "drivers" and in that folder the file type named "hosts" where you will change the ipaddress to the domain name. 
-step7 - open the hosts file to the text editor runned as administrator. 
-step8 - in the text editor, you will type the ipaddress below the last line "192.168.x.xy" and type again after that with space "www.domainname.com"
-step9 - save the file and clear your cache and browser history for it to run. 
-step10 - open your website via domain name "www.domainname.com" for the ubuntu server to run, "www.domainname.com/wordpress" for the whole website, "www.domainname.com/wordpress/wp-admin" for the admin.
+1. Open your virtualmachine and run your ova file.
+2. After opening your ova file, use the code "ifconfig" to see your default ipaddress by looking at the "inet address: "192.168.x.xy"
+3. After getting the needed ipaddress, you can now start opening any text editor and run it as administrator. 
+4. After opening any text editor, go to drive c: manually or any drive where your system is. 
+5. In the driver, look for the folder "Windows", and open it, look for the folder "system32"
+6. In the "system32", look for another folder named "drivers" and in that folder the file type named "hosts" where you will change the ipaddress to the domain name. 
+7. Open the hosts file to the text editor runned as administrator. 
+8. In the text editor, you will type the ipaddress below the last line "192.168.x.xy" and type again after that with space "www.domainname.com"
+9. Save the file and clear your cache and browser history for it to run. 
+10. Open your website via domain name "www.domainname.com" for the ubuntu server to run, "www.domainname.com/wordpress" for the whole website, "www.domainname.com/wordpress/wp-admin" for the admin.
