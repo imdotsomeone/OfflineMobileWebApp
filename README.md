@@ -54,6 +54,26 @@ This is the first thing that the user will see when they open the website. There
 - CONTACT FORM 7
 - SCROLL BACK TO TOP
 
+## Map each features to each plugin
+- STELA HEADER and FOOTER  - head, foot and post injections
+## WELCOME PAGE -  SiteOrigin Widgets ( SiteOrigin Hero, SiteOrigin Features)
+- STELA”S CORNER
+- Announcement - Huge-IT Slider
+- Shout-out Corner - Post Loop
+- Blog / Entertainment - Vertical News Scroll
+- Shout-out Form - Contact Form 7
+- TEACHERS - Beaver Builder
+- EVENTS
+- News - Carousel Slider
+- Achievements - Huge-IT Slider 
+- School Calendar - Event Calendar WD
+- LEARNING - SiteOrigin Slider
+- ABOUT - Beaver Builder
+- History, Mision, Vision, Courses Offered
+- Statistics -  Visualizer: Charts and Graphs Lite
+- Contact Us - SiteOrigin Google Map and Contact Form 7
+
+
 ## 10 steps on how to install lamp wordpress using ubuntu server.
 1. Go to the vmware where the ubuntu terminal is open.
 2. Go to the Root Directory by using the code "sudo su -".
