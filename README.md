@@ -64,13 +64,13 @@ This is the first thing that the user will see when they open the website. There
 	- CREATE DATABASE wordpressdb; (this is to create the database for the wordpress)
 	- CREATE USER wordpressuser@localhost IDENTIFIED BY 'wordpresspassword'; ()
 	- GRANT ALL PRIVILAGE ON wordpressdb.* TO wordpressuser@localhost; ()
-	-FLUSH PRIVILAGES; ()
-	-exit (to exit mysql and go back to the root directory)
+	- FLUSH PRIVILAGES; ()
+	- exit (to exit mysql and go back to the root directory)
 7. After doing things right, you can now install Wordpress and the following commands below will help you do it. 
-	- go to the directory tmp by using "cd /tmp"
-	- next is get the LATEST VERSION of wordpress by typing "wget http://wordpress.org/latest.zip"
-	- after getting the latest version, unzip the file by "unzip -q latest.zip -d /var/www/html/"	
-	- after unzipping the latest version, type the following code accordingly.
+	- Go to the directory tmp by using "cd /tmp"
+	- Next is get the LATEST VERSION of wordpress by typing "wget http://wordpress.org/latest.zip"
+	- After getting the latest version, unzip the file by "unzip -q latest.zip -d /var/www/html/"	
+	- After unzipping the latest version, type the following code accordingly.
 		chown -R www-data:www-data /var/www/html/wordpress
 		chmod -R 755 /var/www/html/wordpress
 		mkdir -p /var/www/html/wordpress/wp-content/uploads
