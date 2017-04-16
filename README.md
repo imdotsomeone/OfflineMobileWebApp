@@ -53,7 +53,7 @@ We used Wordress because it enables us to make a fully functional applications a
 - CONTACT FORM 7
 - SCROLL BACK TO TOP
 
-# ContentManagementSystem 
+# Content Management System 
 ## 10 steps on how to install lamp wordpress using ubuntu server.
 1. Go to the vmware where the ubuntu terminal is open.
 2. Go to the Root Directory by using the code "sudo su -".
@@ -79,7 +79,7 @@ We used Wordress because it enables us to make a fully functional applications a
 9. After doing step8, you can now check you ipaddress by typing "ifconfig".
 10. Doing those step right, you can now setup wordpress using your windows browser by this code "http://ipaddress/wordpress".
   
-CMS: In these steps, you will learn how to change the default ipaddress "192.168.x.xy" to your preferred domain name 
+# 10 steps that will show you how to change the default ipaddress "192.168.x.xy" to your preferred domain name 
 (e.g: "http://www.yourpreferredname.com").
 1. Open your virtualmachine and run your ova file.
 2. After opening your ova file, use the code "ifconfig" to see your default ipaddress by looking at the "inet address: "192.168.x.xy"
