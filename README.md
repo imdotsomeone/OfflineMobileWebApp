@@ -15,20 +15,21 @@ We used Wordress because it enables us to make a fully functional applications a
 
 # What features were implemented? 
 ## WELCOME PAGE 
-## STELA’S CORNER
+This is the first thing that the user will see when they open the website. There are 5 letters of the word 'STELA' that can be clicked and it will lead you to different categories.
+## S for STELA’S CORNER
 - ANNOUNCEMENT
 - SHOUTOUT CORNER
 - BLOG / ENTERTAINMENT
 - SHOUTOUT FORM 
-## TEACHERS
+## T for TEACHERS
 - TEACHERS PER DEPARTMENT
-## EVENTS
+## E for EVENTS
 - NEWS
 - ACHIEVEMENTS
 - SCHOOL CALENDAR
-## LEARNING
+## L for LEARNING
 - VIDEOS 
-## ABOUT
+## A for ABOUT
 - HISTORY
 - MISSION VISION
 - STATISTICS
