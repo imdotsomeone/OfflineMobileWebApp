@@ -13,6 +13,29 @@ It is a software application or set of related programs that are used to create 
 
 We used Wordress because it enables us to make a fully functional applications and websites. It is open source and it is flexible enought for us to explore the things about Content Management System.
 
+# What features were implemented? 
+WELCOME PAGE 
+STELA’S CORNER
+- ANNOUNCEMENT
+- SHOUTOUT CORNER
+- BLOG / ENTERTAINMENT
+- SHOUTOUT FORM 
+TEACHERS
+- TEACHERS PER DEPARTMENT
+EVENTS
+- NEWS
+- ACHIEVEMENTS
+- SCHOOL CALENDAR
+LEARNING
+- VIDEOS 
+ABOUT
+- HISTORY
+- MISSION VISION
+- STATISTICS
+- COURSES OFFERED
+- CONTACT US (MAP & MESSAGE FORM)
+
+
 # ContentManagementSystem 
 #Here you will learn on how to install lamp wordpress using ubuntu server in just 10 steps.
   #step1 - Go to the vmware where the ubuntu terminal is open.
