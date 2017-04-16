@@ -16,20 +16,20 @@ We used Wordress because it enables us to make a fully functional applications a
 # What features were implemented? 
 ## WELCOME PAGE 
 This is the first thing that the user will see when they open the website. There are 5 letters of the word 'STELA' that can be clicked and it will lead you to different categories.
-## S for STELA’S CORNER
+## S = STELA’S CORNER
 - ANNOUNCEMENT
 - SHOUTOUT CORNER
 - BLOG / ENTERTAINMENT
 - SHOUTOUT FORM 
-## T for TEACHERS
+## T = TEACHERS
 - TEACHERS PER DEPARTMENT
-## E for EVENTS
+## E = EVENTS
 - NEWS
 - ACHIEVEMENTS
 - SCHOOL CALENDAR
-## L for LEARNING
+## L = LEARNING
 - VIDEOS 
-## A for ABOUT
+## A = ABOUT
 - HISTORY
 - MISSION VISION
 - STATISTICS
@@ -54,7 +54,6 @@ This is the first thing that the user will see when they open the website. There
 - CONTACT FORM 7
 - SCROLL BACK TO TOP
 
-# Content Management System 
 ## 10 steps on how to install lamp wordpress using ubuntu server.
 1. Go to the vmware where the ubuntu terminal is open.
 2. Go to the Root Directory by using the code "sudo su -".
